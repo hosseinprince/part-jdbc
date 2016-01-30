@@ -25,7 +25,7 @@
   "keywords": [
     "node",
     "jdbc",
-    "rollback"
+    "part"
   ],
   "engines": {
     "node": ">=0.10"
@@ -36,9 +36,9 @@
     "url": "https://github.com/hosseinprince/part-jdbc/issues"
   },
   "homepage": "https://github.com/hosseinprince/part-jdbc",
-  "_id": "jdbc-rollback@0.0.16",
+  "_id": "part-jdbc@0.0.20",
   "_shasum": "00e4772af299d65811ad0b4328bd1207af0f7cd0",
-  "_from": "jdbc-rollback@*",
+  "_from": "part-jdbc@*",
   "_npmVersion": "2.7.4",
   "_nodeVersion": "0.12.2",
   "_npmUser": {
