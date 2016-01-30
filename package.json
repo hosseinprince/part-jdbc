@@ -1,0 +1,63 @@
+{
+  "name": "part-jdbc",
+  "version": "0.0.16",
+  "description": "Node Module JDBC with rollback",
+  "main": "index.js",
+  "dependencies": {
+    "java": "~0.4.4",
+    "underscore": "~1.7.0",
+    "promise": "~6.0.1"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.9.0"
+  },
+  "scripts": {
+    "pretest": "java -cp drivers/hsqldb.jar org.hsqldb.server.Server --database.0 file:mydb --dbname.0 xdb >test/hsqldb.log 2>&1 &",
+    "test": "nodeunit test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hosseinprince/jdbc-rollback.git"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "node",
+    "jdbc",
+    "rollback"
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "author": {
+    "name": "hossein akbarzadeh,majid yaghoti",
+    "email": "akbarzade.s.h@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hosseinprince/jdbc-rollback/issues"
+  },
+  "homepage": "https://github.com/hosseinprince/jdbc-rollback",
+  "_id": "jdbc-rollback@0.0.16",
+  "_shasum": "00e4772af299d65811ad0b4328bd1207af0f7cd0",
+  "_from": "jdbc-rollback@*",
+  "_npmVersion": "2.7.4",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "shak",
+    "email": "akbarzade.s.h@gmail.com"
+  },
+  "dist": {
+    "shasum": "00e4772af299d65811ad0b4328bd1207af0f7cd0",
+    "tarball": "http://registry.npmjs.org/jdbc-rollback/-/jdbc-rollback-0.0.16.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "shak",
+      "email": "akbarzade.s.h@gmail.com"
+    }
+  ],
+  "_resolved": "https://registry.npmjs.org/jdbc-rollback/-/jdbc-rollback-0.0.16.tgz",
+  "readme": "ERROR: No README data found!"
+}
