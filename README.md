@@ -1,6 +1,3 @@
-jdbc-rollback
-=========
-
 JDBC transaction for node.js
 
 Latest Version
@@ -11,14 +8,14 @@ Support for commit transaction has been added.  Set "isAutoCommit" in "open" met
 to v0.10.  If you need to use this with node.js v0.8, use version 0.0.8 of node-jdbc.
 Support  procedure call has benn added.
 
-Please visit [jdbc-rollback](https://www.npmjs.org/package/jdbc-rollback) for information on installing with npm.
+Please visit [part-jdbc](https://www.npmjs.org/package/part-jdbc) for information on installing with npm.
 
 
 
 Initialize
 ----------
 ```javascript
-var jdbc = new ( require('jdbc') );
+var jdbc = new ( require('part-jdbc') );
 
 var config = {
   libpath: __dirname + 'path/to/jdbc.jar',
@@ -128,3 +125,4 @@ API
 - outputs parameter object
 - callback(error,result) where @result is object of the number of rows modified
 "# part-jdbc" 
+
