@@ -1,6 +1,6 @@
 {
   "name": "part-jdbc",
-  "version": "0.0.16",
+  "version": "0.0.20",
   "description": "Node Module JDBC with rollback",
   "main": "index.js",
   "dependencies": {
@@ -30,16 +30,12 @@
   "engines": {
     "node": ">=0.10"
   },
-  "author": {
-    "name": "hossein akbarzadeh,majid yaghoti",
-    "email": "akbarzade.s.h@gmail.com"
-  },
+  "author": "hossein akbarzadeh,majid yaghoti <akbarzade.s.h@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hosseinprince/jdbc-rollback/issues"
   },
   "homepage": "https://github.com/hosseinprince/jdbc-rollback",
-  "_id": "jdbc-rollback@0.0.16",
   "_shasum": "00e4772af299d65811ad0b4328bd1207af0f7cd0",
   "_from": "jdbc-rollback@*",
   "_npmVersion": "2.7.4",
@@ -53,11 +49,7 @@
     "tarball": "http://registry.npmjs.org/jdbc-rollback/-/jdbc-rollback-0.0.16.tgz"
   },
   "maintainers": [
-    {
-      "name": "shak",
-      "email": "akbarzade.s.h@gmail.com"
-    }
+    "shak <akbarzade.s.h@gmail.com>"
   ],
-  "_resolved": "https://registry.npmjs.org/jdbc-rollback/-/jdbc-rollback-0.0.16.tgz",
-  "readme": "ERROR: No README data found!"
+  "_resolved": "https://registry.npmjs.org/jdbc-rollback/-/jdbc-rollback-0.0.16.tgz"
 }
