@@ -1,10 +1,10 @@
 {
   "name": "part-jdbc",
-  "version": "0.0.16",
+  "version": "0.0.20",
   "description": "Node Module JDBC with rollback",
   "main": "index.js",
   "dependencies": {
-    "java": "~0.4.4",
+    "java": "~0.6.0",
     "underscore": "~1.7.0",
     "promise": "~6.0.1"
   },
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hosseinprince/jdbc-rollback.git"
+    "url": "git://github.com/hosseinprince/part-jdbc.git"
   },
   "directories": {
     "test": "test"
@@ -36,9 +36,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hosseinprince/jdbc-rollback/issues"
+    "url": "https://github.com/hosseinprince/part-jdbc/issues"
   },
-  "homepage": "https://github.com/hosseinprince/jdbc-rollback",
+  "homepage": "https://github.com/hosseinprince/part-jdbc",
   "_id": "jdbc-rollback@0.0.16",
   "_shasum": "00e4772af299d65811ad0b4328bd1207af0f7cd0",
   "_from": "jdbc-rollback@*",
@@ -50,7 +50,7 @@
   },
   "dist": {
     "shasum": "00e4772af299d65811ad0b4328bd1207af0f7cd0",
-    "tarball": "http://registry.npmjs.org/jdbc-rollback/-/jdbc-rollback-0.0.16.tgz"
+    "tarball": "http://registry.npmjs.org/part-jdbc/-/part-jdbc-0.0.20.tgz"
   },
   "maintainers": [
     {
@@ -58,6 +58,6 @@
       "email": "akbarzade.s.h@gmail.com"
     }
   ],
-  "_resolved": "https://registry.npmjs.org/jdbc-rollback/-/jdbc-rollback-0.0.16.tgz",
+  "_resolved": "https://registry.npmjs.org/part-jdbc/-/part-jdbc-0.0.20.tgz",
   "readme": "ERROR: No README data found!"
 }
