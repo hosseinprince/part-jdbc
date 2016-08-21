@@ -1,42 +1,50 @@
 {
   "name": "part-jdbc",
-  "version": "0.0.20",
-  "description": "Node Module JDBC with rollback",
+  "version": "0.3.1",
+  "description": "Node Module JDBC wrapper",
   "main": "index.js",
   "dependencies": {
-    "java": "~0.6.0",
-    "underscore": "~1.7.0",
-    "promise": "~6.0.1"
+    "async": "~2.0.0-rc.5",
+    "java": "^0.7.0",
+    "lodash": "~4.12",
+    "node-uuid": "~1.4",
+    "winston": "^2.2.0"
   },
   "devDependencies": {
-    "nodeunit": "~0.9.0"
+    "jshint": "~2.9",
+    "lolex": "^1.5.0",
+    "nodeunit": "~0.9",
+    "q": "^1.4.1"
   },
   "scripts": {
-    "pretest": "java -cp drivers/hsqldb.jar org.hsqldb.server.Server --database.0 file:mydb --dbname.0 xdb >test/hsqldb.log 2>&1 &",
-    "test": "nodeunit test"
+    "pretest": "bash bin/startdbs",
+    "test": "nodeunit test",
+    "posttest": "bash bin/stopdbs",
+    "lint": "jshint lib/**.js test/**.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hosseinprince/part-jdbc.git"
+    "url": "https://github.com/hosseinprince/part-jdbc.git"
   },
   "directories": {
-    "test": "test"
+    "doc": ".",
+    "lib": "lib"
   },
   "keywords": [
     "node",
     "jdbc",
-    "part"
+    "wrapper"
   ],
   "engines": {
     "node": ">=0.10"
   },
-  "author": "hossein akbarzadeh,majid yaghoti <akbarzade.s.h@gmail.com>",
+  "author": "hossein akbarzadeh,majid yaghoti,vahid rahmani <akbarzade.s.h@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hosseinprince/part-jdbc/issues"
   },
   "homepage": "https://github.com/hosseinprince/part-jdbc",
-  "_id": "part-jdbc@0.0.20",
+  "_id": "part-jdbc@0.3.1",
   "_shasum": "00e4772af299d65811ad0b4328bd1207af0f7cd0",
   "_from": "part-jdbc@*",
   "_npmVersion": "2.7.4",
