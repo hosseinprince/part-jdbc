@@ -1,7 +1,7 @@
 JDBC API Wrapper for node.js
 ===================
 
-Latest Version   0.3.1
+Latest Version   0.3.3
 -------------
 
 Installation
