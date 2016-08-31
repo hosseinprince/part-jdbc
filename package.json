@@ -1,5 +1,5 @@
 {
-  "name": "part-jdbc",
+  "name": "jdbc",
   "version": "0.3.1",
   "description": "Node Module JDBC wrapper",
   "main": "index.js",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hosseinprince/part-jdbc.git"
+    "url": "git://github.com/CraZySacX/node-jdbc.git"
   },
   "directories": {
     "doc": ".",
@@ -38,29 +38,39 @@
   "engines": {
     "node": ">=0.10"
   },
-  "author": "hossein akbarzadeh,majid yaghoti,vahid rahmani <akbarzade.s.h@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hosseinprince/part-jdbc/issues"
+  "author": {
+    "name": "Jason Ozias",
+    "email": "jason.g.ozias@gmail.com"
   },
-  "homepage": "https://github.com/hosseinprince/part-jdbc",
-  "_id": "part-jdbc@0.3.1",
-  "_shasum": "00e4772af299d65811ad0b4328bd1207af0f7cd0",
-  "_from": "part-jdbc@*",
-  "_npmVersion": "2.7.4",
-  "_nodeVersion": "0.12.2",
+  "license": "MIT",
+  "gitHead": "d44495de574249d83bc43d73eca098126e34886b",
+  "bugs": {
+    "url": "https://github.com/CraZySacX/node-jdbc/issues"
+  },
+  "homepage": "https://github.com/CraZySacX/node-jdbc#readme",
+  "_id": "jdbc@0.3.1",
+  "_shasum": "c13d48f2999520295a2c10d4263194635822b5c6",
+  "_from": "jdbc@^0.3.1",
+  "_npmVersion": "3.9.2",
+  "_nodeVersion": "6.2.0",
   "_npmUser": {
-    "name": "shak",
-    "email": "akbarzade.s.h@gmail.com"
+    "name": "jozias",
+    "email": "jason.g.ozias@gmail.com"
   },
   "dist": {
-    "shasum": "00e4772af299d65811ad0b4328bd1207af0f7cd0",
-    "tarball": "http://registry.npmjs.org/part-jdbc/-/part-jdbc-0.0.20.tgz"
+    "shasum": "c13d48f2999520295a2c10d4263194635822b5c6",
+    "tarball": "https://registry.npmjs.org/jdbc/-/jdbc-0.3.1.tgz"
   },
   "maintainers": [
-    "shak <akbarzade.s.h@gmail.com>"
+    {
+      "name": "jozias",
+      "email": "jason.g.ozias@gmail.com"
+    }
   ],
-  "_resolved": "https://registry.npmjs.org/part-jdbc/-/part-jdbc-0.0.20.tgz",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/jdbc-0.3.1.tgz_1463854699963_0.8139213302638382"
+  },
+  "_resolved": "https://registry.npmjs.org/jdbc/-/jdbc-0.3.1.tgz",
   "readme": "ERROR: No README data found!"
-
 }
